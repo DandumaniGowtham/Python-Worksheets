@@ -11,5 +11,6 @@ def assign_grade(score):
     return "D"
   else:
     return "F"
+    
 score = int(input("Enter Score:"))
 print(assign_grade(score))
