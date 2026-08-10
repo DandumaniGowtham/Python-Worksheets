@@ -8,7 +8,7 @@ def separate_even_odd(numbers):
       odd.append(num)
   return (even, odd)
 
-n = int(input("Enter size of list"))
+n = int(input("Enter size of list: "))
 numbers = []
 for i in range(n):
   numbers.append(int(input()))
