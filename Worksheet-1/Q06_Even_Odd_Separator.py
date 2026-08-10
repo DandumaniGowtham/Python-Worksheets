@@ -11,7 +11,7 @@ def separate_even_odd(numbers):
 n = int(input("Enter size of list: "))
 numbers = []
 for i in range(n):
-  numbers.append(int(input()))
+  numbers.append(int(input("Enter Number: ")))
 even, odd = separate_even_odd(numbers)
 print(even)
 print(odd)
