@@ -35,12 +35,10 @@ class Library:
 
         for book in self.books:
             if book["id"] == book_id:
-                if not book["available"]:
-                    book["available"] = True
-                    print("Book returned successfully.")
-                else:
-                    print("Book is already available.")
+                book["available"] = True
+                print("Book returned successfully.")
                 return
+
         print("Book not found.")
 
     def display_available_books(self):
